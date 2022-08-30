@@ -71,8 +71,8 @@ WSGI_APPLICATION = 'studybud.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'studybuddb',
-        'USER': 'postgres',
+        'NAME': 'densitedb',
+        'USER': 'denis',
         'PASSWORD': 'hellomydear12',
         'HOST': 'localhost',
         'PORT': '5432',
